@@ -12,7 +12,7 @@ class BooksApp extends Component {
   render() {
     return (
       <div className="app">
-        <Route exact path="/search" render={() => (
+        <Route exact path="/add_book" render={() => (
           <AddBook />
         )}/>
         <Route exact path="/" render={() => (
