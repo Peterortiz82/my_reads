@@ -162,7 +162,7 @@ class BookShelf extends Component {
           </div>
           <div className="open-search">
             <Link
-              to="/add_book"
+              to="/search"
             >Add a book</Link>
           </div>
         </div>
